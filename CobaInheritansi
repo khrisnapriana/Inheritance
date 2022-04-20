@@ -1,0 +1,17 @@
+package Inheritansi;
+
+public class CobaInheritansi {
+    public static void main(String[] args){
+        Alatmusik alatmusik = new Alatmusik();
+        System.out.println("--------------------------------------");
+        Gitar gitar = new Gitar();
+        System.out.println("--------------------------------------");
+        GitarAkustik gitarakustik = new GitarAkustik();
+        System.out.println("--------------------------------------");
+        GitarAkustikYamaha gitarakustikyamaha = new GitarAkustikYamaha();
+        System.out.println("--------------------------------------");
+        alatmusik.ketahanan();
+        gitar.ketahanan();
+        gitar.ketahanan("5 tahun");
+    }
+}
