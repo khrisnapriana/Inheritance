@@ -1,0 +1,19 @@
+package Inheritansi;
+
+public class Gitar extends Alatmusik{
+
+    public Gitar(){
+        System.out.println("Gitar");
+        System.out.println("Sumber bunyi: Senar/Dawai");
+        System.out.println("Cara bermain: Dipetik");
+    }
+    //override
+    @Override
+    public void ketahanan(){
+        System.out.println("Gitar bisa tahan lebih dari 5 tahun jika dirawat dengan baik");
+    }
+    //overloading
+    public void ketahanan(String tahun){
+        System.out.println("Jika dirawat dengan baik, gitar bisa tahan lebih dari " + tahun);
+    }
+}
