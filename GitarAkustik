@@ -1,0 +1,10 @@
+package Inheritansi;
+
+public class GitarAkustik extends Gitar{
+
+    public GitarAkustik(){
+        System.out.println("Jenis gitar: Akustik");
+        System.out.println("Bahan: Kayu");
+        System.out.println("Bisa langsung dimainkan tanpa speaker");
+    }
+}
