@@ -1,0 +1,10 @@
+package Inheritansi;
+
+public class GitarAkustikYamaha extends GitarAkustik{
+
+    public GitarAkustikYamaha(){
+        System.out.println("Merk: Yamaha Apx 500");
+        System.out.println("Harga: Rp 2.000.000");
+        System.out.println("Sudah bonus soft case");
+    }
+}
